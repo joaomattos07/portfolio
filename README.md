@@ -2,8 +2,7 @@
 
 Personal portfolio showcasing my frontend development and UI/UX projects.
 
-[![Live Website](https://img.shields.io/badge/LIVE%20WEBSITE-Visit%20Portfolio-2563eb?style=for-the-badge&logo=vercel&logoColor=white)](https://jpmattos.vercel.app/)
-[![GitHub Repository](https://img.shields.io/badge/SOURCE%20CODE-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joaomattos07/portfolio)
+[![Visit Portfolio](https://img.shields.io/badge/-VISIT%20PORTFOLIO-2563eb?style=for-the-badge&logo=vercel&logoColor=white)](https://jpmattos.vercel.app/)
 
 ![Portfolio preview](public/projects/portfolio/portfolio-preview.png)
 
@@ -80,5 +79,9 @@ Developed by **João Pedro de Mattos**.
 
 ## 🌐 Contact
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joaopedrodemattos)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joaopedro261206@gmail.com)
+<a href="https://www.linkedin.com/in/joaopedrodemattos">
+  <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" width="48" height="48" />
+</a>
+<a href="mailto:joaopedro261206@gmail.com">
+  <img src="https://img.icons8.com/color/48/gmail-new.png" alt="Email" width="48" height="48" />
+</a>
