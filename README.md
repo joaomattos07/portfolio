@@ -20,14 +20,6 @@ This portfolio was built to present my projects, skills, and education in one pl
 - Reduced-motion support
 - Contact links and downloadable résumé
 
-## 🧩 Featured Project
-
-### PrismaPay
-
-A mobile finance app concept that brings accounts and cards from different banks into one experience. The user flow was mapped in FigJam, and the screens were prototyped in Figma.
-
-[View the PrismaPay case study](https://jpmattos.vercel.app/projetos/prismapay) · [Open the Figma prototype](https://www.figma.com/proto/GfJsKUTtYONqlVgVpzq7Ll/PrismaApp?node-id=15-288&p=f&viewport=433%2C439%2C0.17&t=RtYgBvUtrFF4tjIS-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=312%3A437&page-id=0%3A1)
-
 ## 🛠️ Technologies
 
 <p align="left">
