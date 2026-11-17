@@ -43,13 +43,13 @@ export default function ProjectCard({ project }) {
         to={detailUrl}
         viewTransition
         aria-label={project.title}
-        className="h-28 w-full shrink-0 overflow-hidden rounded-2xl border border-border bg-surface sm:w-40"
+        className={`aspect-[4/3] h-auto w-full shrink-0 overflow-hidden rounded-2xl border border-border bg-surface sm:aspect-auto sm:h-28 sm:w-40 ${project.slug === 'prismapay' ? 'project-card-cover--prismapay' : ''}`}
       >
         {cover ? (
           <img
             src={cover}
             alt={`Capa do projeto ${project.title}`}
-            className="h-full w-full object-cover"
+            className="h-full w-full object-contain sm:object-cover"
           />
         ) : (
           <div className="flex h-full items-center justify-center text-sm text-muted">

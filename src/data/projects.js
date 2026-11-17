@@ -9,8 +9,8 @@ export const projects = [
     cover: '/projects/portfolio/logoport.png',
     tags: ['React', 'JavaScript', 'Tailwind CSS', 'HTML', 'CSS', 'Vite'],
     links: {
-      site: 'COLE_AQUI_O_LINK_PUBLICADO',
-      github: 'COLE_AQUI_O_LINK_DO_REPOSITORIO',
+      site: 'https://jpmattos.vercel.app/',
+      github: 'https://github.com/joaomattos07/portfolio',
     },
     content: {
       pt: {

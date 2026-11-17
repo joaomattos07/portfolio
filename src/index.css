@@ -117,6 +117,68 @@ html {
   transform-origin: center;
 }
 
+@keyframes smoke-rise-mobile {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) scale(0.7);
+  }
+
+  12% {
+    opacity: 0.8;
+  }
+
+  62% {
+    opacity: 0.42;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(var(--drift, 0px), -120px) scale(2.6);
+  }
+}
+
+@media (max-width: 639px) {
+  .project-card-cover--prismapay {
+    background-color: #f8fafc;
+    background-image:
+      linear-gradient(
+        180deg,
+        #b6e9fe 0%,
+        #b7eaff 12.5%,
+        #b9eaff 25%,
+        #bbebff 37.5%,
+        #b5e6fe 50%,
+        #a1daff 62.5%,
+        #8dcdff 75%,
+        #78c0ff 87.5%,
+        #68b7ff 100%
+      ),
+      linear-gradient(
+        180deg,
+        #b4e8fe 0%,
+        #b7eaff 12.5%,
+        #b8eaff 25%,
+        #baebff 37.5%,
+        #bcebff 50%,
+        #b1e4ff 62.5%,
+        #9ed8ff 75%,
+        #89ccff 87.5%,
+        #74beff 100%
+      );
+    background-position: left center, right center;
+    background-repeat: no-repeat;
+    background-size: calc(12.5% + 2px) 100%, calc(12.5% + 2px) 100%;
+  }
+
+  .hero-smoke {
+    filter: url(#hero-smoke-mobile-blur);
+  }
+
+  .puff {
+    animation: smoke-rise-mobile 5s ease-out infinite;
+  }
+}
+
 @keyframes trace-contact-icon {
   to {
     stroke-dashoffset: 0;
@@ -157,5 +219,17 @@ html {
   .contact-icon-link:focus-visible .contact-icon-trace {
     animation: none;
     stroke-dashoffset: 0;
+  }
+}
+
+@media (max-width: 639px) and (prefers-reduced-motion: reduce) {
+  .hero-smoke {
+    filter: url(#hero-smoke-mobile-blur);
+  }
+
+  .puff {
+    animation: none;
+    opacity: 0.4;
+    transform: scale(1.2);
   }
 }

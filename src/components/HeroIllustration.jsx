@@ -75,6 +75,9 @@ export default function HeroIllustration({ className = '' }) {
         <filter id="hero-smoke-blur" x="-80%" y="-80%" width="260%" height="260%">
           <feGaussianBlur stdDeviation="5" />
         </filter>
+        <filter id="hero-smoke-mobile-blur" x="-80%" y="-80%" width="260%" height="260%">
+          <feGaussianBlur stdDeviation="2.5" />
+        </filter>
       </defs>
 
       <polygon points="316,261 627.8,441 402.6,571 90.8,391" fill="#1e3a8a" opacity="0.22" />
@@ -92,7 +95,7 @@ export default function HeroIllustration({ className = '' }) {
           strokeWidth="9"
           strokeLinecap="round"
         />
-        <g filter="url(#hero-smoke-blur)">
+        <g className="hero-smoke" filter="url(#hero-smoke-blur)">
           {puffs.map((p) => (
             <ellipse
               key={p.x + p.delay}
