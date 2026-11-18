@@ -61,7 +61,7 @@ export const projects = [
     flowImage: '/projects/prismapay/prisma-flow-clean.png',
     links: {
       prototype:
-        'https://www.figma.com/proto/GfJsKUTtYONqlVgVpzq7Ll/PrismaApp?node-id=15-288&p=f&viewport=433%2C439%2C0.17&t=RtYgBvUtrFF4tjIS-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=312%3A437&page-id=0%3A1',
+        'https://www.figma.com/proto/GfJsKUTtYONqlVgVpzq7Ll/PrismaApp?page-id=0%3A1&node-id=2-10&p=f&viewport=-450%2C-83%2C0.64&t=5M7vXQZW98SnU6zs-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=312%3A437',
     },
     content: {
       pt: {
